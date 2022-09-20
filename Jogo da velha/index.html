@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+   
+    <title>Jogo da velha</title>
+</head>
+<body>
+    
+    <main>
+        <p><h1>JOGO DA VELHA</h1></p>
+        
+        <div>
+            <div class="linha">
+                <div id="casa1" class="casa" onclick="jogada(this);"></div>
+                <div id="casa2" class="casa" onclick="jogada(this);"></div>
+                <div id="casa3" class="casa" onclick="jogada(this);"></div>
+            </div>
+    
+            <div class="linha">
+                <div id="casa4" class="casa" onclick="jogada(this);"></div>
+                <div id="casa5" class="casa" onclick="jogada(this);"></div>
+                <div id="casa6" class="casa" onclick="jogada(this);"></div>
+            </div>
+    
+            <div class="linha">
+                <div id="casa7" class="casa" onclick="jogada(this);"></div>
+                <div id="casa8" class="casa" onclick="jogada(this);"></div>
+                <div id="casa9" class="casa" onclick="jogada(this);"></div>
+            </div>
+            <div><button onclick="reset_jogo()">Jogue novamente!</button></div>
+        </div>
+        <div id="pX" class="placar"></div>
+        <div id="pO" class="placar"></div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

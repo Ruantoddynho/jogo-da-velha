@@ -1,0 +1,38 @@
+@charset "UTF-8";
+main{
+ 
+    
+    justify-content: center;
+    
+    
+}
+main > div{
+    background-color: rgb(223, 180, 240);
+}
+main > h1{
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(179, 124, 231);
+}
+.casa{
+    border: 3px rgb(179, 124, 231) solid;
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(179, 124, 231);
+    line-height: 150px;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 124, 231);
+    height: 100vh;
+    align-items: center;
+}
